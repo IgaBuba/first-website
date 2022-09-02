@@ -550,6 +550,12 @@ header button {
     background-color: rgba(0, 63, 114, .5);
 }
 
+@media (hover:none) {
+    .slogan {
+        background-attachment: initial;
+    }
+}
+
 @media (orientation:landscape) {
     .slogan p {
         width: 70%;
